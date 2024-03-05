@@ -1,0 +1,8 @@
+- Pearson's  correlation, una correlación que mide una relación lineal entre dos variables continuas.
+- Se mide entre valores de [-1,1]
+- Si la correlación es perfecta, su ángulo con el eje x va a ser de 45°
+- Cuando no existe correlación el valor va a ser de 0.
+(Lectura complementaria: "Mutual Information", "entropy")
+- Si dos variables diferentes nos dan un valor casi de 1, podrímos eliminar una de ellas, ya que ambas tienen casi los mismos valores.
+- Si la correlación es negativa, mientras una variable sube la otra va a bajar. Si es positiva la correlación cuando
+    cuando una variable sube la otra tambien.
