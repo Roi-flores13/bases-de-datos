@@ -6,3 +6,9 @@
 - Si dos variables diferentes nos dan un valor casi de 1, podrímos eliminar una de ellas, ya que ambas tienen casi los mismos valores.
 - Si la correlación es negativa, mientras una variable sube la otra va a bajar. Si es positiva la correlación cuando
     cuando una variable sube la otra tambien.
+-La regresión lineal es el trazo de la linea en donde la distancia de los puntos con esa linea es mínima
+- En la función y = mx + b, m es la pendiente, x la variable independiente y b es el bias o sesgo
+- Para que sea regresión, el valor de Y tiene que ser numérico y va de [-inf, inf], si no se convierte en clasificación [0,1]
+- plt.scatter siempre tiene que tener un valor x y un valor y, aparte la información tiene que tener forma de arreglo
+- Una clase es lo que define el comportamiento 
+- EL entrenamiento o el .fit() tú le das los valores x y el resultado en y que deberían tener. Así el modelo encuentra patrones por si entran x nuevas.
