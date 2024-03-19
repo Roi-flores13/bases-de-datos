@@ -10,5 +10,19 @@
 - En la función y = mx + b, m es la pendiente, x la variable independiente y b es el bias o sesgo
 - Para que sea regresión, el valor de Y tiene que ser numérico y va de [-inf, inf], si no se convierte en clasificación [0,1]
 - plt.scatter siempre tiene que tener un valor x y un valor y, aparte la información tiene que tener forma de arreglo
-- Una clase es lo que define el comportamiento 
-- EL entrenamiento o el .fit() tú le das los valores x y el resultado en y que deberían tener. Así el modelo encuentra patrones por si entran x nuevas.
+- El entrenamiento o el .fit() tú le das los valores x y el resultado en y que deberían tener. Así el modelo encuentra patrones por si entran x nuevas.
+- Un algoritmo es el proceso que se lleva para conseguir como resultado un modelo
+- Cuando los datos se ajustan al modelo es estadística, cuando el modelo se ajusta a los datos es machine learning
+- Es útil usar machine learning cuando el problema es complejo, una solución tradicional no saca la chamba, cuando el entorno es cambiante
+- Tipos de machine learning:
+    Supervised: Tienes tus x y tus y, metes esos datos a tu algoritmo y el modelo debe de ser lo mas parecido a tu input en y.
+        Classification: Cuando el valor saliente del algoritmo es una categoria ej. "rojo" "azul"
+        Regresión: Cuando estás esperando que el valor resultante sea un valor numérico
+    Unsupervised: El algoritmo recibe valor x, lo que hace es que te agrupa datos por características o patrones similares
+
+- KNN representa un algoritmo que en base a características similares de las observaciones, predice cual va a ser el resultado.
+- Es importante tomar en cuenta que el x1 y el x2 sean proporcionales, que la escala sea igual y que no haya valores faltantes.
+- El KNN es un algortimo que no se entrena, simplemente memoriza los datos y mide sus distancias a los otros datos
+- Resumido: Encuentras punto, mides distnancias a puntos mas cercanos y cuentas incidencia de clase agrupada.
+- KNN funciona bien para bases de datos pequeñas (100,000 muestras <)
+- Cuando se trabaja con ndarray, se puede hacer preguntas en los selectores ej. y[y==0]
